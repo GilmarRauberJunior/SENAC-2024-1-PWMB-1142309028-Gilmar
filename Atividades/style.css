@@ -7,7 +7,6 @@ main#Principal{
     height: auto;
     position: relative;
     margin: 0 auto;
-    padding: 5px;
     display: flex;
     margin: 5px;
 }
@@ -16,6 +15,7 @@ header#Cabecalho{
     height: 80px;
     margin: 5px;
     position: relative;
+    text-align: center;
 }
 footer#Rodape{
     border: 2px red solid;
@@ -24,14 +24,15 @@ footer#Rodape{
     margin: 5px;
 }
 article#Noticias{
-    float: right;
     border: 1px grey solid;
     position: relative;
     margin: 2px;
 }
 article#Locais{
-    float: left;
     border: 1px forestgreen solid;
     position: relative;
     margin: 2px;
 }   
+section{
+    display: flex;
+}
