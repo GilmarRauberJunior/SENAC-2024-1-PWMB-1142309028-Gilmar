@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main#Principal{
+    border: 2px black solid;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+}
+header#Cabecalho{
+    border: 2px blue solid;
+    height: 80px;
+    margin: 5px;
+    position: relative;
+}
+footer#Rodape{
+    border: 2px red solid;
+    height: 75px;
+    margin: auto;
+    margin: 5px;
+}
+article#Noticias{
+    float: right;
+    border: 1px grey solid;
+    position: relative;
+    margin: 2px;
+}
+article#Locais{
+    float: left;
+    border: 1px forestgreen solid;
+    position: relative;
+    margin: 2px;
+}   
