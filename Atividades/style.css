@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-main#Principal{
+.Principal{
     border: 2px black solid;
     height: auto;
     position: relative;
@@ -10,25 +10,25 @@ main#Principal{
     display: flex;
     margin: 5px;
 }
-header#Cabecalho{
+.Cabecalho{
     border: 2px blue solid;
     height: 80px;
     margin: 5px;
     position: relative;
     text-align: center;
 }
-footer#Rodape{
+.Rodape{
     border: 2px red solid;
     height: 75px;
     margin: auto;
     margin: 5px;
 }
-article#Noticias{
+.Noticias{
     border: 1px grey solid;
     position: relative;
     margin: 2px;
 }
-article#Locais{
+.Locais{
     border: 1px forestgreen solid;
     position: relative;
     margin: 2px;
