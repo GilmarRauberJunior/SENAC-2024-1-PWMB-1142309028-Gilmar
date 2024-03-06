@@ -8,19 +8,26 @@ body{
     display: flex;
     margin: 5px;
 }
+.itemPrincipal{
+    position: absolute;
+    text-align: center;
+    transition: 2s;
+}
 .Cabecalho{
     height: 80px;
     margin: 5px;
     position: relative;
     text-align: center;
+    background-color: #093caa;
+    color: white;
 }
 .Rodape{
     height: 75px;
     margin: 5px;
-    background-color: black;
+    background-color: #093caa;
 }
 .itemRodape{
-    text-decoration: white;
+    color: white;
 }
 .Noticias{
     position: relative;
