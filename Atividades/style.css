@@ -17,6 +17,10 @@ body{
 .Rodape{
     height: 75px;
     margin: 5px;
+    background-color: black;
+}
+.itemRodape{
+    text-decoration: white;
 }
 .Noticias{
     position: relative;
