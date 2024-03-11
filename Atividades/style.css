@@ -7,41 +7,32 @@ body{
     height: auto;
     position: relative;
     display: flex;
-    margin: 5px;
-}
-.itemPrincipal{
-    position: absolute;
-    text-align: center;
-    transition: 2s;
+    margin: 2px;
 }
 .Cabecalho{
     height: 80px;
-    margin: 5px;
     text-align: center;
     background-color: #093caa;
     color: white;
-    display: flex;
 }
 .Rodape{
-    height: 75px;
-    margin: 5px;
+    height: 40px;
     background-color: #093caa;
-    display: flex;
 }
 .itemRodape{
     color: white;
 }
-.Noticias{
-    position: relative;
-    margin: 2px;
-    width: 40%;
-    display: flex;
+.sidebar{
+    margin: 1px;
+    width: 25%;
+    height: fit-content;
+    flex-direction: column;
 }
 .Locais{
-    display: flex;
     margin: 2px;
-    width: 60%;
-}   
-section{
+    width: 75%;
+    flex-direction: column;
+}  
+.conteudo   {
     display: flex;
 }
