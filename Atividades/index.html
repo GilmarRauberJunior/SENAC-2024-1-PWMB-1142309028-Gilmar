@@ -3,37 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Nesse meta a seguir será mostrado ao cliente que pesquisar sobre o site-->
+    <meta name="description" conten="Descubra mais sobres os destino mais procurados do mundo e do Brasil.">
     <title>Onde ir?</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Atividades/Assets/icon.png">
 </head>
+
 <body>
+    <!--Areá do cabeçalho-->
     <header class="Cabecalho">
-        <h1>Onde ir?</h1>
+        <!--Menu de login e cadastro-->
+        <span>Onde ir?</span>
+        <nav class="itemCabecalho">
+            <li><a href="home.html" class="links">Home</a></li>
+            <li><a href="lociasNacionais.html" class="links">Locias Nacionais</a></li>
+            <li><a href="locaisInternacionais.html" class="links">Locais Internacionais</a></li>
+            <li><a href="sobreNós.html" class="links">Sobre nós</a></li>
+        </nav>
+        <li><a href="https://github.com/GilmarRauberJunior" class="links">GitHub</a></li>
     </header>
+    <!--Areá do Main-->
     <main class="Principal">
         <section class="conteudo">
-            <article class="sidebar">
-                <nav>
-                    <u>Locais Nacionais</u><br>
-                    <u>Locais Internacionais</u><br>
-                    <u>Sobre nós</u><br>
-                </nav>
-            </article>
+            <!--Conteúdo do Site-->
             <article class="Locais">
                 <h3>Principais destinos Nacionais</h3>
                 <p>
-                    Viajar pelo Brasil é algo maravilhoso, você pode conhecer lugares maravilhosos e gastando pouco<br>Confira os principais destinos do nosso Brasil:<br>Ceará<br>Maranhão<br>- Rio de Janeiro<br>- Florianópolis<br>- Foz do Iguaçu<br>Entre outros destinos mais cobiçados pelos usuários do blog.
+                    Viajar pelo Brasil é algo maravilhoso, você pode conhecer lugares maravilhosos e gastando pouco<br>Confira os principais destinos do nosso Brasil:<br>- Ceará<br>- Maranhão<br>- Rio de Janeiro<br>- Florianópolis<br>- Foz do Iguaçu<br>Entre outros destinos mais cobiçados pelos usuários do blog.
                 <p>
             </article>
-            
+            <img src="/Atividades/Assets/imgSalvador.jpg">
         </section>
 
     </main>
-
+    <!--Areá do footer-->
     <footer class="Rodape">
-        <nav>
-            <u class="itemRodape">Instagram</u> 
-            <u class="itemRodape">Facebook</u>
+        <nav class="menuRodape">
+            <li><a class="links" href="https://www.instagram.com/">Instagram</a></li>
+            <li><a class="links" href="https://www.facebook.com/?locale=pt_BR">Facebook</a></li>
+            <p>Todos os direitos reservados | 2024</p>
         </nav>
     </footer>
 

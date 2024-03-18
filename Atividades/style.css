@@ -10,29 +10,40 @@ body{
     margin: 2px;
 }
 .Cabecalho{
+    padding: 5px;
     height: 80px;
-    text-align: center;
     background-color: #093caa;
     color: white;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    align-items: center;
+}
+.itemCabecalho{
+    padding: 5px;
+    text-align: center;
+    display: flex;
 }
 .Rodape{
-    height: 40px;
+    color: white;
+    text-align: center;
+    height: 15%;
     background-color: #093caa;
+} 
+.conteudo   {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 75% 25%;
 }
-.itemRodape{
+.links:visited{
     color: white;
 }
-.sidebar{
-    margin: 1px;
-    width: 25%;
-    height: fit-content;
-    flex-direction: column;
+.links{
+    color: black;
 }
-.Locais{
-    margin: 2px;
-    width: 75%;
-    flex-direction: column;
-}  
-.conteudo   {
-    display: flex;
+.links:hover{
+    color: bisque;
+}
+img{
+    height: 200px;
+    width: 300px;
 }
