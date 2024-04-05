@@ -46,6 +46,10 @@ body{
     object-fit: cover;
 }
 
+.itemNavegacaoPrincipal:hover{
+    color: black;
+}
+
 a{
     color: black;
     text-decoration: none;
