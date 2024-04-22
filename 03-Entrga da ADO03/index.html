@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio1</title>
 </head>
+
 <body>
     <div>
-        <form action="" id="idade">
-            <label for="ano-nasc">Ano de nascimento: </label>
-            <input type="text" id="ano-nasc" placeholder="Ex: 2010" name="ano-nasc"><br><br>
-            <label for="genero">Gênero:</label>
-            <input type="text" id="genero" name="genero">
-            <br><br>
-            <button id="verificar" onclick="identificar()">Verificar</button>
-        </form><br>
+        <label for="ano-nasc">Ano de nascimento: </label>
+        <input type="ra" id="ano-nasc" placeholder="Ex: 2010" name="ano-nasc"><br><br>
+        <p>Gênero:</p>
+        <input type="radio" id="masculino" name="genero">
+        <label for="genMasc">Masculino</label>
+        <input type="radio" id="faminino" name="genero">
+        <label for="genero">Feminino</label>
+        <br><br>
+        <input type="submit" value="Verificar" onclick="identificar()"><br>
     </div>
-    <div id="divImg">
-        <img id="imagem">
-    </div>
+    <div id="divImg"></div>
+    <script src="script.js"></script>
 </body>
+
 </html>
