@@ -13,45 +13,31 @@ function desafio1() {
         if(idade <= 10){
             imagem.src = "https://img.freepik.com/fotos-gratis/retrato-de-menino_23-2150773106.jpg?size=626&ext=jpg&ga=GA1.1.337094557.1713735370&semt=ais";
             conatinerImagem.appendChild(imagem);
+        }else if(idade <= 25){
+            imagem.src = "https://img.freepik.com/fotos-gratis/retrato-de-um-adolescente-sorridente_171337-893.jpg";
+            conatinerImagem.appendChild(imagem);
+        }else if(idade <= 60){
+            imagem.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCuqo7hOuzhY5GmRqtfruNCHLiBsHU8O8wjQLF4W1vw&s";
+            conatinerImagem.appendChild(imagem);
+        }else if(idade > 60){
+            imagem.src = "https://img.freepik.com/fotos-premium/homem-idoso-feliz_256588-850.jpg";
+            conatinerImagem.appendChild(imagem);
         }
     }
-}
 
-function inserir() {
-    var resultado = document.getElementById("resultado");
-
-    var numero = window.document.getElementById("numeros").value;
-    var maior = numero + 1;
-    var menor = numero - 1;
-    var qtdNum = 1;
-
-    if (numero > maior) {
-        maior = numero;
+    if(genero === "Feminino"){
+        if(idade <= 10){
+            imagem.src = "https://img.freepik.com/fotos-gratis/linda-garotinha-loira-sorri-piscando-posando-tocando-o-rosto-com-as-maos-no-vestido-rosa-fofo-crianca-olhando-feliz-e-encantada-copie-o-espaco_176420-10150.jpg";
+            conatinerImagem.appendChild(imagem);
+        }else if(idade <= 25){
+            imagem.src = "https://img.freepik.com/fotos-gratis/a-mulher-bonita-que-veste-o-revestimento-ocasional-da-sarja-de-nimes-sobre-a-parede-isolada-entrega-junto-e-os-dedos-cruzados-sorrindo-relaxado-e-alegre-sucesso-e-otimista_231208-1256.jpg";
+            conatinerImagem.appendChild(imagem);
+        }else if(idade <= 60){
+            imagem.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyQ143lc1_w4X8FjZXLpWPbbtGh27gDXPd9GNru3E_w&s";
+            conatinerImagem.appendChild(imagem);
+        }else if(idade > 60){
+            imagem.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3ImXK4AKEZzISFhaRobGHau-1TE7A_BXBlrm8u1jJQ&s";
+            conatinerImagem.appendChild(imagem);
+        }
     }
-
-    if (numero < menor) {
-        menor = numero;
-    }
-
-    var somaTotal = somaTotal + numero;
-    qtdNum++;
-
-    var mediaNum = somaTotal / qtdNum;
-
-    var menorNum = document.createElement("p");
-    menorNum.innerHTML = "Menor valor inserido: " + menor;
-    resultado.appendChild(menorNum);
-    var maiorNum = document.createElement("p");
-    maiorNum.innerHTML = "Maior valor inserido: " + maiorNum;
-    resultado.appendChild(maiorNum);
-    var soma = document.createElement("p");
-    soma.innerHTML = "A soma total dos valores é : " + somaTotal;
-    resultado.appendChild(soma);
-    var media = document.createElement("p");
-    media.innerHTML = "A média dos valores é: " + mediaNum;
-    resultado.appendChild(media);
-}
-
-function finalizar() {
-    return false;
 }
