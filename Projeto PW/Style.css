@@ -30,7 +30,6 @@ body{
 .principal{
     display: grid;
     grid-template-columns: 20% 80%;
-    height: 100vh;
 }
 
 .menuPrincipal{
@@ -42,7 +41,7 @@ body{
 .imgPrincipal{
     margin: 5px;
     width: 100%;
-    height: 50%;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -63,4 +62,8 @@ a:hover{
 
 li{
     list-style-type: none
+}
+
+.titulo-textos{
+    text-align: center;
 }
