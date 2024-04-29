@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Aula11-JS</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="cabecalho">
+
+            <h2> Ficha de Inscrição</h2>
+        </header>
+        <main class="conteudo">
+
+            <div id="container">
+
+                <div class="frmCadastro">
+                    <div class="form-control">
+                        <label for="frmNomeCliente">Nome do Cliente </label>
+                        <input type="text" id="frmNomeCliente" placeholder="Digite seu nome">
+                        <i class="fa fa-exclamation-circle" style="font-size:24px;color:red"></i>
+                        <i class="fa fa-check-circle" style="font-size:24px;color:green"></i>
+                        <small>msg error</small><!--Mensagem de error-->
+                    </div>
+                    <div class="form-control">
+                        <label for="frmCelCliente">Celular </label>
+                        <input type="text" id="frmCelCliente" placeholder="Digite o número de seu celular">
+                        <i class="fa fa-exclamation-circle" style="font-size:24px;color:red"></i>
+                        <i class="fa fa-check-circle" style="font-size:24px;color:green"></i>
+                        <small>msg error</small><!--Mensagem de error-->
+                    </div>
+                    <div class="form-control">
+                        <label for="frmEmailCliente">E-mail</label>
+                        <input type="text" id="frmEmailCliente" placeholder="Digite o seu e-mail">
+                        <i class="fa fa-exclamation-circle" style="font-size:24px;color:red"></i>
+                        <i class="fa fa-check-circle" style="font-size:24px;color:green"></i>
+                        <small>msg error</small><!--Mensagem de error-->
+                    </div>
+                    <div class="botoes">
+                        <button type="button" id="btnBotao1" class="btnBotao1" onclick="cadastarCliente('1')">Enviar</button>
+                        <br>
+                        <button type="button" id="btnBotao2" class="btnBotao2" onclick="cadastarCliente('2')">Confirmar</button>
+                        <br>
+                        <button type="button" id="btnBotao3" class="btnBotao3" onclick="cadastarCliente('3')">Cancelar</button>
+                        <br>                
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+        <script src="validaCadatro.js"></script>
+</body>
+
+</html>
