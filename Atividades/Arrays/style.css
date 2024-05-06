@@ -7,8 +7,7 @@ body{
 #message{
     background-color: lavender;
     height: 100px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     text-align: center;
 }
@@ -23,12 +22,7 @@ body{
 }
 
 .containerBtn{
-    display: flex;
-    flex-direction: column;
-    height: 20px;
+    align-items: center;
+    height: 70px;
     margin: 15px;
 }
-
-/*
-    configurando 
-*/

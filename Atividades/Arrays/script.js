@@ -9,14 +9,13 @@ var films = [
             "O Exterminador do Futuro (1984)"
             ];
 
-const link = document.createElement("a");
 var message = document.createTextNode("Aqui estão os melhores filmes eleitos por Hollywood!");
 
 function load(){
     document.getElementById("message").appendChild(message);
     films.forEach((film, index) => {
         const itemListFilm = document.createElement("li");
-        itemListFilm.innerHTML = `${index+1} - ${film}`;
+        itemListFilm.innerText = `${index+1} - ${film}`;
         document.getElementById("filmList").appendChild(itemListFilm);
     });
 }
