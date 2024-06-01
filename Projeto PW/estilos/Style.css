@@ -132,3 +132,22 @@ li{
 .btnCadastrar:hover{
     background-color: #6195e8;
 }
+
+/*
+    Estilo da conferencia de video
+*/
+h1 {
+    color: #333;
+}
+video {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+}
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

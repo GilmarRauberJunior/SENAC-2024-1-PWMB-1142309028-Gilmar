@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/Style.css">
+    <script src="./dados/Script.Js"></script>
     <title>ADS Consultas</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <h1>ADS Consultas</h1>
@@ -22,7 +25,9 @@
     </header>
 
     <main>
-
+        <video id="localVideo" autoplay muted></video>
+        <video id="remoteVideo" autoplay></video>
+        <button onclick="startCall()">Iniciar Chamada</button>
     </main>
 
     <footer class="rodape">
@@ -33,4 +38,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
