@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/Style.css">
+    <title>ADS Consultas</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>ADS Consultas</h1>
+        <nav class="menuCabecalho">
+            <div>
+                <li><a href="Home.html" class="itemNavegacao">Home</a></li>
+            </div>
+            <div>
+                <li><a href="Consultas.html" class="itemNavegacao">Consultas</a></li>
+            </div>
+            <div>
+                <li><a href="https://discord.gg/j33yeT6MSM" class="itemNavegacao">Video Conferências</a></li>
+            </div>
+            <div>
+                <li><a href="Prontuarios.html" class="itemNavegacao">Prontuários</a></li>
+            </div>
+        </nav>
+        <nav class="entrar">
+            <li><a href="Cadastrar.html" class="itemNavegacao">Cadastrar-se</a></li>
+            <li><a href="Entrar.html" class="itemNavegacao">Entrar</a></li>
+        </nav>
+    </header>
+
+    <main class="prontuarioMain">
+        <form id="prontuarioForm">
+            <div>
+                <label for="nomePaciente">Nome do Paciente:</label>
+                <input type="text" id="nomePaciente" placeholder="Nome completo">
+            </div>
+            <div>
+                <label for="cpfPaciente">CPF do Paciente:</label>
+                <input type="text" id="cpfPaciente" placeholder="000.000.000-00">
+            </div>
+            <div>
+                <label for="dataDiagnostico">Data:</label>
+                <input type="text" id="dataDiagnostico" placeholder="dd/mm/yyyy">
+            </div>
+            <div>
+                <label for="diagnostico">Diagnóstico:</label>
+                <textarea id="diagnostico" placeholder="Descrição do diagnóstico"></textarea>
+            </div>
+            <div>
+                <label for="prescricoes">Prescrições:</label>
+                <textarea id="prescricoes" placeholder="Prescrições Médicas"></textarea>
+            </div>
+            <div>
+                <label for="assinaturaEletronica">Assinatura Eletrônica:</label>
+                <input type="file" id="assinaturaEletronica">
+            </div>
+            <div>
+                <button type="submit">Salvar Prontuário</button>
+            </div>
+        </form>
+
+        <ul id="listaProntuarios">
+            <!-- Lista de prontuários -->
+        </ul>
+    </main>
+
+    <footer class="rodape">
+        <nav class="menuRodape">
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="itemNavegacao">Instagram</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="itemNavegacao">Facebook</a></li>
+            <p>Todos os direitos reservados | 2024</p>
+        </nav>
+    </footer>
+</body>
+</html>
