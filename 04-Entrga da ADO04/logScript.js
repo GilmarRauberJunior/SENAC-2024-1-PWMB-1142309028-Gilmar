@@ -3,8 +3,8 @@ const clientes = [
         emailCliente: "jurandir@gmail.com",
         senhaCliente: "senha123",
         nomeCliente: "Jurandir",
-        urlAvatarCliente: "assets/avatar.png",
-        nomeArquivoAvatarCliente: "avatar.png"
+        urlAvatarCliente: "assets/avatarCliente2.png",
+        nomeArquivoAvatarCliente: "avatarCliente2.png"
     }
 ];
 
