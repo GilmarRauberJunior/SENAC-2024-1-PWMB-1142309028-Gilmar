@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+    <div class="carrinho-container">
+        <table id="carrinho-produtos" class="lista-produtos">
+            <thead>
+                <tr>
+                    <th>Nº</th>
+                    <th>ID</th>
+                    <th>Nome do Produto</th>
+                    <th>Valor Unitário</th>
+                    <th>Quantidade</th>
+                    <th>Valor Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Produtos no carrinho serão adicionados aqui via JavaScript -->
+            </tbody>
+        </table>
+        <div class="carrinho-acoes">
+            <button onclick="finalizarCompra()">Encerrar Compra</button>
+            <button onclick="voltarVitrine()">Voltar para Vitrine</button>
+        </div>
+    </div>
+    <script src="carScript.js"></script>
+</body>
+</html>

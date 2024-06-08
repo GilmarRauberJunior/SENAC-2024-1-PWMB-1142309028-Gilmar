@@ -1,0 +1,27 @@
+.carrinho-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho-acoes {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.carrinho-acoes button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.carrinho-acoes button:hover {
+    background-color: #218838;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
